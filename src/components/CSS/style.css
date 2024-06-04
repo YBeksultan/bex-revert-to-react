@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* Promo Section */
+
+.slide-enter {
+  opacity: 0;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.slide-exit {
+  opacity: 1;
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Search */
+
+.search_input {
+  border: none;
+  width: 700px;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Position dropdown below the button */
+  left: 0; /* Align dropdown with the button */
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+/* Style the options */
+.dropdown-content button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+/* Style the clear button */
+.clear {
+  margin-left: 5px;
+  cursor: pointer;
+}

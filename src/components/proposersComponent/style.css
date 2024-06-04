@@ -1,0 +1,109 @@
+.search_input {
+  border: none;
+  width: 700px;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+/* picked date align */
+.rs-picker-default .rs-picker-toggle {
+    position: relative;
+    z-index: 5;
+    padding-right: 67px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    color: #575757;
+    border: 1px solid #e5e5ea;
+    padding-left: 44px;
+} 
+/* calander align */
+ .rs-picker-toggle-caret {
+    display: inline-block;
+    margin-right: 240px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-weight: normal;
+    color: #8e8e93;
+} 
+
+/* ok button style */
+ .rs-picker-toolbar-right-btn-ok { 
+    text-align: center; 
+    cursor: pointer;
+    outline: 0 ; 
+    border: none; 
+    padding: 8px 12px; 
+    font-size: 14px; 
+    border-radius: 30px;
+    color: #fff;
+    background-color: #3498ff;
+    width: 100px;
+} 
+.rs-picker-daterange > .rs-input-group.rs-input-group-inside .rs-input {
+  padding-left: 30px;
+}
+
+.rs-picker-daterange > .rs-input-group.rs-input-group-inside .rs-input::placeholder {
+  text-align: center;
+}
+
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Position dropdown below the button */
+  left: 0; /* Align dropdown with the button */
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+/* Style the options */
+.dropdown-content button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+/* Style the clear button */
+.clear {
+  margin-left: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+/* Основной контейнер слайдера */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Скрытые слайды */
+.slide {
+  position: absolute; /* Позиционируем слайд абсолютно */
+  width: 69%;
+  opacity: 0; /* Начальная прозрачность */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Анимация появления/исчезновения и перемещения */
+
+}
+
+/* Активный слайд */
+.slide.active {
+  opacity: 1; /* Показываем активный слайд */
+}
+
+/* Анимация для перемещения влево */
+.slide.slideToLeft {
+  transform: translateX(-100%);
+}
+
+/* Анимация для перемещения вправо */
+.slide.slideToRight {
+  transform: translateX(100%);
+}
